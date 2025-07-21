@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FileCode } from "phosphor-react";
-import Bg from "./bg";
+import Bg from "./Bg";
 import EncryptButtonForAssets from "./EncryptButtonForAssets";
 import EncryptButtonForDeepfake from "./EncryptButtonForDeepfake";
 
