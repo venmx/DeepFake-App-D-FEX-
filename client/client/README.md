@@ -16,7 +16,7 @@
 
 ## Try It Yourself
 
-Coming soon...
+[D-FEX](https://d-fex.vercel.app/)
 
 ---
 
@@ -28,7 +28,7 @@ Coming soon...
 | Backend      | Python Flask                                   |
 | ML Runtime   | Google Colab + ngrok for tunnel API access     |
 | Deepfake ML  | [Wav2Lip](https://github.com/Rudrabha/Wav2Lip) |
-| Deployment   | GitHub Pages (frontend), ngrok (backend API)   |
+| Deployment   | Vercel (frontend), ngrok (backend API)   |
 
 ---
 
@@ -77,7 +77,7 @@ pip install imageio-ffmpeg==0.4.2
 
 ## 📈 Making it Production Ready
 
-Here’s what I’ve done or plan to implement:
+Here’s what I would do to make it production-ready:
 
 - ✅ Frontend + Backend split architecture
 - ✅ Ngrok tunneling to bridge Google Colab with real app
@@ -120,16 +120,16 @@ Here’s what I’ve done or plan to implement:
 | Backend     | Flask (Colab-hosted), Ngrok                      |
 | ML Model    | Wav2Lip (Custom Flask Wrapper)                   |
 | Video Tools | ffmpeg                                           |
-| Hosting     | Netlify / Vercel (Frontend), Colab (ML)          |
+| Hosting     | Vercel (Frontend), Colab (ML)          |
 
 ---
 
-## 🚀 Production-Readiness
+## 🚀 Production-Readiness ( Beyond-Prototype )
 
 | Area                  | Implementation Details                                                             |
 |-----------------------|-------------------------------------------------------------------------------------|
 | ML Inference          | Offloaded to GPU-powered Google Colab server                                       |
-| Frontend Hosting      | Works on Vercel/Netlify (via `npm run build`)                                      |
+| Frontend Hosting      | Works on Vercel/ (via `npm run build`)                                             |
 | Clean UI              | TailwindCSS + Motion animations + responsive design                                |
 | Lazy Loading          | Placeholder elements simulate real app flow                                        |
 | API Integration       | ML model served via Flask, exposed using ngrok                                     |
