@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Bg from "./components/bg";
+import Bg from "./components/Bg";
 import CodeEditor from "./components/CodeEditor";
 
 
